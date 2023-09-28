@@ -1,10 +1,10 @@
 
 # ItsTerm1n4l/prime.nvim
 
-based off [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
+based off [shaunsingh/prime.nvim](https://github.com/shaunsingh/prime.nvim)
 ## Features
 
-Nord.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
+prime.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
 added to NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 + Supported plugins:
@@ -59,21 +59,21 @@ Enable the colorscheme:
 
 ```vim
 "Vim-Script:
-colorscheme nord
+colorscheme prime
 ```
 
 ```lua
 --Lua:
-vim.cmd[[colorscheme nord]]
+vim.cmd[[colorscheme prime]]
 ```
 
-To enable the `nord` theme for `Lualine`, simply specify it in your lualine settings:
+To enable the `prime` theme for `Lualine`, simply specify it in your lualine settings:
 
 ```lua
 require('lualine').setup {
   options = {
     -- ... your lualine config
-    theme = 'nord'
+    theme = 'prime'
     -- ... your lualine config
   }
 }
@@ -83,39 +83,39 @@ require('lualine').setup {
 
 | Option                              | Default     | Description                                                                                                                                                     |
 | ----------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nord_contrast                   | `false`      | Make sidebars and popup menus like nvim-tree and telescope have a different background                                                                                       |
-| nord_borders                    | `false`     | Enable the border between verticaly split windows visable
-| nord_disable_background         | `false`     | Disable the setting of background color so that NeoVim can use your terminal background
-| nord_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
-| nord_enable_sidebar_background  | `false`     | Re-enables the background of the sidebar if you disabled the background of everything
-| nord_italic                     | `true`      | enables/disables italics
-| nord_uniform_diff_background    | `false`     | enables/disables colorful backgrounds when used in *diff* mode
-| nord_bold                       | `true`      | enables/disables bold
+| prime_contrast                   | `false`      | Make sidebars and popup menus like nvim-tree and telescope have a different background                                                                                       |
+| prime_borders                    | `false`     | Enable the border between verticaly split windows visable
+| prime_disable_background         | `false`     | Disable the setting of background color so that NeoVim can use your terminal background
+| prime_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
+| prime_enable_sidebar_background  | `false`     | Re-enables the background of the sidebar if you disabled the background of everything
+| prime_italic                     | `true`      | enables/disables italics
+| prime_uniform_diff_background    | `false`     | enables/disables colorful backgrounds when used in *diff* mode
+| prime_bold                       | `true`      | enables/disables bold
 
 ```lua
 -- Example config in lua
-vim.g.nord_contrast = true
-vim.g.nord_borders = false
-vim.g.nord_disable_background = false
-vim.g.nord_italic = false
-vim.g.nord_uniform_diff_background = true
-vim.g.nord_bold = false
+vim.g.prime_contrast = true
+vim.g.prime_borders = false
+vim.g.prime_disable_background = false
+vim.g.prime_italic = false
+vim.g.prime_uniform_diff_background = true
+vim.g.prime_bold = false
 
 -- Load the colorscheme
-require('nord').set()
+require('prime').set()
 ```
 
 ```vim
 " Example config in Vim-Script
-let g:nord_contrast = v:true
-let g:nord_borders = v:false
-let g:nord_disable_background = v:false
-let g:nord_italic = v:false
-let g:nord_uniform_diff_background = v:true
-let g:nord_bold = v:false
+let g:prime_contrast = v:true
+let g:prime_borders = v:false
+let g:prime_disable_background = v:false
+let g:prime_italic = v:false
+let g:prime_uniform_diff_background = v:true
+let g:prime_bold = v:false
 
 " Load the colorscheme
-colorscheme nord
+colorscheme prime
 ```
 
 ### headlines support
@@ -150,7 +150,7 @@ It should look like this
 To support [BufferLine](https://github.com/akinsho/nvim-bufferline.lua), you can add these code to your settings:
 
 ```lua
-local highlights = require("nord").bufferline.highlights({
+local highlights = require("prime").bufferline.highlights({
     italic = true,
     bold = true,
 })
@@ -170,7 +170,7 @@ It should look like this
 or you want to use slant separator
 
 ```lua
-local highlights = require("nord").bufferline.highlights({
+local highlights = require("prime").bufferline.highlights({
     italic = true,
     bold = true,
     fill = "#181c24"
@@ -192,11 +192,11 @@ The default setting of bufferline highlights is
 
 ```lua
 {
-    fill = colors.nord0_gui,
-    indicator = colors.nord9_gui,
-    bg = colors.nord0_gui,
-    buffer_bg = colors.nord0_gui,
-    buffer_bg_selected = colors.nord1_gui,
+    fill = colors.prime0_gui,
+    indicator = colors.prime9_gui,
+    bg = colors.prime0_gui,
+    buffer_bg = colors.prime0_gui,
+    buffer_bg_selected = colors.prime1_gui,
     buffer_bg_visible = "#2A2F3A",
     bold = true,
     italic = true,
