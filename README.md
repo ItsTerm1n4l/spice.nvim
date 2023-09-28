@@ -1,10 +1,7 @@
 
-# shaunsingh/nord.nvim
+# ItsTerm1n4l/prime.nvim
 
-## Neovim theme based off of the [Nord Color Palette.](https://www.nordtheme.com/docs/colors-and-palettes)
-
-![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)
-
+based off [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
 ## Features
 
 Nord.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
@@ -48,12 +45,12 @@ Install via your favourite package manager:
 
 ```vim
 " If you are using Vim-Plug
-Plug 'shaunsingh/nord.nvim'
+Plug 'ItsTerm1n4l/prime.nvim'
 ```
 
 ```lua
 -- If you are using Packer
-use 'shaunsingh/nord.nvim'
+use 'ItsTerm1n4l/prime.nvim'
 ```
 
 ## 🌓 Usage
