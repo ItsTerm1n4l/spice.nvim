@@ -1,7 +1,26 @@
 
 # ItsTerm1n4l/prime.nvim
 
+![moonlight](./moonlight_screenshot.png)
+Screenshot taken with Moonlight theme.
+___
 based off [shaunsingh/prime.nvim](https://github.com/shaunsingh/prime.nvim)
+
+### **More Screenshots**
+<details>
+<summary>(Click to expand)</summary>
+
+Tokyo-night theme.   
+![](./tokyo-night_screenshot.png)
+
+Everforest theme.   
+![](./everforest_screenshot.png)
+
+Kanagawa-storm theme.   
+![](./kanagawa_screenshot.png)
+
+</details>
+
 ## Features
 
 prime.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
