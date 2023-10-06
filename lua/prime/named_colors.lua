@@ -1,22 +1,22 @@
 local prime = {
 	--16 colors
-	background = "#1e2030", -- prime0 in palette
-	black = "#444a73", -- prime1 in palette
-	gray = "#444a73", -- prime2 in palette
-	light_gray = "#828bb8", -- prime3 in palette
-	light_gray_bright = "#828bb8", -- out of palette
-	darkest_white = "#7f85a3", -- prime4 in palette
-	altwhite = "#5f8787", -- prime5 in palette
-	white = "#d0d0d0", -- prime6 in palette
-	cyan = "#86e1fc", -- prime7 in palette
-	altcyan = "#b4f9f8", -- prime8 in palette
-	altblue = "#82aaff", -- prime9 in palette
-	blue = "#3e68d7", -- prime10 in palette
-	red = "#ff5370", -- prime11 in palette
-	yellow = "#ffc777", -- prime12 in palette
-	altyellow = "#ffc777", -- prime13 in palette
-	green = "#4fd6be", -- prime14 in palette
-	magenta = "#fc7b7b", -- prime15 in palette
+	background = "#2d353b", -- prime0 in palette
+	black = "#475258", -- prime1 in palette
+	gray = "#475258", -- prime2 in palette
+	light_gray = "#475258", -- prime3 in palette
+	light_gray_bright = "#475258", -- out of palette
+	darkest_white = "#d3c6aa", -- prime4 in palette
+	altwhite = "#d3c6aa", -- prime5 in palette
+	white = "#d3c6aa", -- prime6 in palette
+	cyan = "#83c092", -- prime7 in palette
+	altcyan = "#83c092", -- prime8 in palette
+	altblue = "#7fbbb3", -- prime9 in palette
+	blue = "#7fbbb3", -- prime10 in palette
+	red = "#e67e80", -- prime11 in palette
+	yellow = "#dbbc7f", -- prime12 in palette
+	altyellow = "#dbbc7f", -- prime13 in palette
+	green = "#a7c080", -- prime14 in palette
+	magenta = "#d699b6", -- prime15 in palette
 	none = "NONE",
 }
 return prime

@@ -1,7 +1,7 @@
 
 # ItsTerm1n4l/prime.nvim
 
-![moonlight](./moonlight_screenshot.png)
+![moonlight](./moonlight_screenshot.png)   
 Screenshot taken with Moonlight theme.
 ___
 based off [shaunsingh/prime.nvim](https://github.com/shaunsingh/prime.nvim)
