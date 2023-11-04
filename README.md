@@ -8,9 +8,9 @@ Using the amazing [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) as
 To install with [nvim-plug]()
 Add 
 ```
-Plug 'ItsTerm1n4l/spice.nvim'  
+Plug 'ItsTerm1n4l/spice.nvim'   
 ```
-to `init.nvim`
+to `init.nvim`    
 To install with [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```
 {
@@ -20,7 +20,7 @@ To install with [lazy.nvim](https://github.com/folke/lazy.nvim)
   opts = {},
 }
 ```
-And add 
+And add    
 ```
 colorscheme spice
 ```
@@ -31,17 +31,17 @@ to `init.nvim`
 <summary>(Click to expand)</summary>
 
 Tokyo-night theme.   
-![](./tokyo-night_screenshot.png)
+![](./screenshots/tokyo-night_screenshot.png)
 
 Everforest theme.   
-![](./everforest_screenshot.png)
+![](./screenshots/everforest_screenshot.png)
 
 Monokai theme.   
-![](./monokai_screenshot.png)
+![](./screenshots/monokai_screenshot.png)
 
 Kanagawa-storm theme.   
-![](./kanagawa_screenshot.png)
+![](./screenshots/kanagawa_screenshot.png)
 
 Poimandres theme.   
-![](./poimandres_screenshot.png)
+![](./screenshots/poimandres_screenshot.png)
 </details>
