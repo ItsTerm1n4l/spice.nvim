@@ -1,7 +1,7 @@
 # ItsTerm1n4l/Spice.nvim
 ![screenshot](./screenshots/main_screenshot.png)
 ___
-My awesome [Noevim](https://github.com/neovim/neovim) theme for use with [Spice](https://github.com/ItsTerm1n4l/Spice), my automatic colorscheme setter.    
+My awesome [Neovim](https://github.com/neovim/neovim) theme for use with [Spice](https://github.com/ItsTerm1n4l/Spice), my automatic colorscheme setter.    
 Using the amazing [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) as a base.    
 
 ### **Installation**
@@ -14,7 +14,7 @@ to `init.nvim`
 To install with [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```
 {
-  "folke/tokyonight.nvim",
+  "ItsTerm1n4l/spice.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
