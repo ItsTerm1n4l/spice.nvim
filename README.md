@@ -31,7 +31,7 @@ to `init.nvim`
 <summary>(Click to expand)</summary>
 
 Tokyo-night theme.   
-![](./screenshots/tokyo-night_screenshot.png)
+![](./screenshots/tokyo-storm_screenshot.png)
 
 Everforest theme.   
 ![](./screenshots/everforest_screenshot.png)
